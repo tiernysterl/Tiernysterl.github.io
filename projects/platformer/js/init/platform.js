@@ -34,11 +34,15 @@
          * asset, giving it a scaleX and scaleY of 2 will stretch it across the 
          * bottom of the game.
          */
-        createPlatform(0, game.world.height - 32, 3, 2);    // DO NOT DELETE
+        createPlatform(0, game.world.height - 40, 10, 5);    // DO NOT DELETE
 
         // example:
-        createPlatform(400, 250);
-        createPlatform(170, 460, 0.5);
+        createPlatform(200, 200);
+        createPlatform(430, 500, 0.7);
+        createPlatform(500, 330);
+        createPlatform(200, 590, 0.5);
+        createPlatform(100, 400, 0.6);
+        
         
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
